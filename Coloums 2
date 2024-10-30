@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+    </script>
+    <style>
+        .col {
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello Students</h1>
+        <p>Pesise The Window To See The Browser Effect</p>
+        <div class="row">
+            <!--Size Medium, and Extra Small-->
+            <div class="col-md-8 col-xs-4" style="background-color: red; border: 1px solid black;">xs </div>
+            <div class="col-md-12 col-xs-5" style="background-color: lavender;">col-xs-3 </div>
+        </div>
+        <div class="row">
+            <!--Size Lrage, Medium, and Extra Small-->
+            <div class="col-md-12 col-xs-6" style="background-color: lavenderblush;">col-xs-6 </div>
+            <div class="col-xs-6 col-md-6" style="background-color: lightgrey;">col-xs-6 </div>
+        </div>
+        <div class="row" style="background-color: lightcyan;">
+            <!--Size extra small-->
+            <div class="col-xs-6">col-xs-6</div>
+            <div class="col-xs-6">col-xs-6</div>
+</body>
+
+</html>
